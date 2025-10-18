@@ -1,4 +1,4 @@
-# YOLO11 Object Detection and Distance Estimation System
+# Modeling and path planning of Autonomous Vehicle in Dynamic Environment using   Differential Flatness model.
 ## Final Project Report - RSUD20K Dataset
 
 ---
