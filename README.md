@@ -27,12 +27,12 @@ This project implements a state-of-the-art **real-time object detection and dist
 
 The primary objectives of this project were:
 
-1. ✅ **Train a custom YOLO11 model** on RSUD20K dataset for South Asian traffic object detection
-2. ✅ **Implement distance estimation** using pinhole camera model
-3. ✅ **Process large-scale datasets** (18,600+ images) efficiently
-4. ✅ **Generate annotated output** with distance labels and color-coded bounding boxes
-5. ✅ **Evaluate model performance** with comprehensive accuracy metrics
-6. ✅ **Create professional documentation** and presentations
+1.  **Train a custom YOLO11 model** on RSUD20K dataset for South Asian traffic object detection
+2.  **Implement distance estimation** using pinhole camera model
+3.  **Process large-scale datasets** (18,600+ images) efficiently
+4.  **Generate annotated output** with distance labels and color-coded bounding boxes
+5.  **Evaluate model performance** with comprehensive accuracy metrics
+6.  **Create professional documentation** and presentations
 
 ### 1.2 Dataset: RSUD20K
 
@@ -224,28 +224,28 @@ Empty Images:                231 (1.2%)
 
 | Class | Precision | Recall | mAP@50 | Status |
 |-------|-----------|--------|---------|---------|
-| **bus** | 0.892 | 0.856 | 0.884 | ✅ Excellent |
-| **truck** | 0.867 | 0.823 | 0.851 | ✅ Excellent |
-| **private_car** | 0.834 | 0.798 | 0.812 | ✅ Excellent |
-| **person** | 0.812 | 0.776 | 0.789 | ✅ Good |
-| **motorcycle** | 0.789 | 0.745 | 0.762 | ✅ Good |
-| **rickshaw_van** | 0.756 | 0.712 | 0.731 | ✅ Good |
-| **auto_rickshaw** | 0.723 | 0.689 | 0.698 | ✅ Good |
+| **bus** | 0.892 | 0.856 | 0.884 |  Excellent |
+| **truck** | 0.867 | 0.823 | 0.851 |  Excellent |
+| **private_car** | 0.834 | 0.798 | 0.812 |  Excellent |
+| **person** | 0.812 | 0.776 | 0.789 |  Good |
+| **motorcycle** | 0.789 | 0.745 | 0.762 |  Good |
+| **rickshaw_van** | 0.756 | 0.712 | 0.731 |  Good |
+| **auto_rickshaw** | 0.723 | 0.689 | 0.698 |  Good |
 
 **Classes Needing Improvement:**
 
 | Class | Precision | Recall | mAP@50 | Status |
 |-------|-----------|--------|---------|---------|
-| **human_hauler** | 0.456 | 0.398 | 0.412 | ⚠️ Moderate |
-| **bicycle** | 0.634 | 0.567 | 0.589 | ⚠️ Moderate |
-| **rickshaw** | 0.678 | 0.623 | 0.645 | ✅ Good |
+| **human_hauler** | 0.456 | 0.398 | 0.412 |  Moderate |
+| **bicycle** | 0.634 | 0.567 | 0.589 |  Moderate |
+| **rickshaw** | 0.678 | 0.623 | 0.645 |  Good |
 
 **Performance Distribution:**
 
-- ✅ **Excellent (≥80%)**: 3 classes (bus, truck, private_car)
-- ✅ **Good (60-80%)**: 8 classes
-- ⚠️ **Moderate (40-60%)**: 2 classes (human_hauler, bicycle)
-- ❌ **Poor (<40%)**: 0 classes
+-  **Excellent (≥80%)**: 3 classes (bus, truck, private_car)
+-  **Good (60-80%)**: 8 classes
+-  **Moderate (40-60%)**: 2 classes (human_hauler, bicycle)
+-  **Poor (<40%)**: 0 classes
 
 ### 3.3 Processing Performance
 
@@ -368,34 +368,34 @@ for box in results[0].boxes:
 ### 5.1 Generated Files
 
 **Model Weights:**
-- ✅ `runs/detect/rsud20k_yolo11/weights/best.pt` (136 MB)
-- ✅ `runs/detect/rsud20k_yolo11/weights/last.pt` (136 MB)
+-  `runs/detect/rsud20k_yolo11/weights/best.pt` (136 MB)
+-  `runs/detect/rsud20k_yolo11/weights/last.pt` (136 MB)
 
 **Annotated Images:**
-- ✅ `accurate_rsud_detection_from_train/` (18,681 images)
-- ✅ `distance_estimation_output/` (1,004 validation images)
+-  `accurate_rsud_detection_from_train/` (18,681 images)
+-  `distance_estimation_output/` (1,004 validation images)
 
 **Training Results:**
-- ✅ `runs/detect/rsud20k_yolo11/results.png` (training curves)
-- ✅ `runs/detect/rsud20k_yolo11/confusion_matrix.png`
-- ✅ `runs/detect/rsud20k_yolo11/F1_curve.png`
-- ✅ `runs/detect/rsud20k_yolo11/PR_curve.png`
+-  `runs/detect/rsud20k_yolo11/results.png` (training curves)
+-  `runs/detect/rsud20k_yolo11/confusion_matrix.png`
+-  `runs/detect/rsud20k_yolo11/F1_curve.png`
+-  `runs/detect/rsud20k_yolo11/PR_curve.png`
 
 **Accuracy Analysis:**
-- ✅ `per_class_accuracy_analysis.png` (4-panel visualization)
-- ✅ `rsud20k_accuracy_trained.csv` (detailed metrics)
-- ✅ `detection_results_18600.txt` (processing summary)
+-  `per_class_accuracy_analysis.png` (4-panel visualization)
+-  `rsud20k_accuracy_trained.csv` (detailed metrics)
+-  `detection_results_18600.txt` (processing summary)
 
 **Documentation:**
-- ✅ `PROJECT_COMPLETE_SUMMARY.md`
-- ✅ `YOLO11_Distance_Estimation_Presentation.md`
-- ✅ `PRESENTATION_GUIDE.md`
-- ✅ `DISTANCE_OUTPUT_GUIDE.md`
-- ✅ `YAML_DISTANCE_ESTIMATION_README.md`
+-  `PROJECT_COMPLETE_SUMMARY.md`
+-  `YOLO11_Distance_Estimation_Presentation.md`
+-  `PRESENTATION_GUIDE.md`
+-  `DISTANCE_OUTPUT_GUIDE.md`
+-  `YAML_DISTANCE_ESTIMATION_README.md`
 
 **Presentation:**
-- ✅ `YOLO11_Distance_Estimation_Presentation.pptx` (13 slides)
-- ✅ `create_presentation.py` (automated generator)
+-  `YOLO11_Distance_Estimation_Presentation.pptx` (13 slides)
+-  `create_presentation.py` (automated generator)
 
 ### 5.2 Visualization Examples
 
@@ -579,11 +579,11 @@ model.export(format='onnx')
 | EfficientDet | 69.8% | 35 | 52 MB | 51.9M |
 
 **Why YOLO11?**
-- ✅ Best speed/accuracy trade-off
-- ✅ Real-time capable (180 FPS)
-- ✅ Moderate model size
-- ✅ Latest architecture improvements
-- ✅ Easy to train and deploy
+-  Best speed/accuracy trade-off
+-  Real-time capable (180 FPS)
+-  Moderate model size
+-  Latest architecture improvements
+-  Easy to train and deploy
 
 ### 9.2 Distance Estimation Methods
 
@@ -603,17 +603,17 @@ model.export(format='onnx')
 
 This project successfully demonstrates:
 
-✅ **Custom YOLO11 Training**: Trained on 18,681 RSUD20K images with 71.2% mAP@50
+ **Custom YOLO11 Training**: Trained on 18,681 RSUD20K images with 71.2% mAP@50
 
-✅ **Large-Scale Processing**: Processed entire dataset with 100% success rate
+ **Large-Scale Processing**: Processed entire dataset with 100% success rate
 
-✅ **Distance Estimation**: Implemented pinhole model with ±2.3m average error
+ **Distance Estimation**: Implemented pinhole model with ±2.3m average error
 
-✅ **Comprehensive Analysis**: Generated detailed accuracy metrics for all 13 classes
+ **Comprehensive Analysis**: Generated detailed accuracy metrics for all 13 classes
 
-✅ **Professional Documentation**: Created 7+ documentation files and PowerPoint presentation
+ **Professional Documentation**: Created 7+ documentation files and PowerPoint presentation
 
-✅ **Production-Ready Code**: Modular, well-documented, and optimized implementation
+ **Production-Ready Code**: Modular, well-documented, and optimized implementation
 
 ### 10.2 Impact and Significance
 
@@ -780,17 +780,8 @@ Training complete! Results saved to runs/detect/rsud20k_yolo11/
 ### 13.4 Contact and Support
 
 **Project Maintainer**: [Your Name]
-**Email**: [your.email@example.com]
-**GitHub**: [github.com/yourusername/yolo11-rsud20k]
+**Email**: [ibrahim.213061001@smuct.ac.bd]
+**GitHub**: [github.com/imondol41/yolo11-rsud20k]
 **Documentation**: [project-docs-url]
-
----
-
-**Report Generated**: October 19, 2025
-**Version**: 1.0
-**Total Pages**: 15
-**Word Count**: ~5,000 words
-
----
 
 © 2025 YOLO11 Object Detection Project. All Rights Reserved.
